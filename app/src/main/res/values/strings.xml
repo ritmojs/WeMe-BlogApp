@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeMe</string>
+    <string name="Email_hint">Email</string>
+    <string name="Password_hint">Password</string>
+    <string name="Login_btn">Login</string>
+    <string name="Create_btn">Create Account</string>
+    <string name="create">New To WeMe?</string>
+    <string name="PostText">Post Description here</string>
+    <string name="Date">Date Created</string>
+    <string name="Post">Post Title</string>
+    <string name="desp">Image</string>
+    <string name="Desp">Desp</string>
+    <string name="hintPostTitle">Post Title</string>
+    <string name="Postdesp">Description is here</string>
+    <string name="Datestamp">Date Of Post</string>
+    <string name="Savepost">Save</string>
+    <string name="Svae">Save</string>
+</resources>

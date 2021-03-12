@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddPostActivity">
+
+    <EditText
+        android:id="@+id/PostDesp"
+        android:layout_width="334dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/PostText"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PostAdd"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <ImageButton
+        android:id="@+id/PostAdd"
+        android:layout_width="377dp"
+        android:layout_height="226dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <EditText
+        android:id="@+id/PostTitle"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/Post"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PostAdd"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/submitPost"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:hint="@string/Svae"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/cardview_light_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PostDesp"
+        app:layout_constraintVertical_bias="0.503" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
